@@ -1,0 +1,891 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rahul.me</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<h2>
+					<p>
+						<a href="https://www.python.org/"> #Pythonista  |</a>
+						<a href="http://en.wikipedia.org/wiki/FOSS"> #Foss_Lover |</a>
+						<a href="https://www.w3.org/"> #Web  </a>
+					</p>
+					<br>
+					<p>
+						<a href="http://rahulxarvis.blogspot.in/"> #Blogger  |</a>
+						<a href="https://github.com/Rahul91"> #Coder |</a> 
+						<a href="https://developer.mozilla.org/en-US/profiles/rahul91"> #Mozillian  </a>
+					</p>
+					<br>
+					<p> 
+						<a href="https://www.mediawiki.org/wiki/User:Rahulmishra22"> #Wikipedian  |</a>
+						<a href="https://aws.amazon.com"> #AWS |</a>
+						<a href="https://en.wikipedia.org/wiki/DevOps"> #Devops  </a>
+					</p>
+					<br>
+					<p> #Music_Lover  |  #Traveller |  #Foodie</p>
+				</h2>
+			</div>
+			<div class="banner-right">
+				<h1>I’M Rahul</h1>
+				<div class="border"></div>
+				<h2>Full Stack Developer</h2>
+				<a href="RahulMishra_Resume.pdf" download="Rahul_resume">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>I’m Rahul Mishra. My friends call me “Mishra,” and it just kind of stuck. 
+		   I’m currently based in Pune, but previously lived in Kolkata. There are plenty of ways to 
+		   reach me below if you’re interested in a collaboration or want to follow my work.
+		   I’m on Twitter and GitHub and always love hearing about new projects. I am currently working
+		   as as Full Stack Developer in a Pune based startup. I love open source projects and contribute to them 
+		   as well.</p>
+		<ul>
+			<li><a class="github" href="https://github.com/Rahul91" target="_blank"></a></li>
+			<li><a class="instagram" href="https://www.instagram.com/__mishra__/" target="_blank"></a></li>
+			<li><a class="blogger" href="http://rahulxarvis.blogspot.in/" target="_blank"></a></li>
+			<li><a class="in" href="https://in.linkedin.com/in/priyrahulmishra" target="_blank"></a></li>
+			<li><a class="fb" href="https://www.facebook.com/rahul.mishra.94402" target="_blank"></a></li>
+			<li><a class="twit" href="https://twitter.com/MishraRahul91" target="_blank"></a></li>	
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center" id="my-skill">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Python Flask/Django</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>JavaScript AngularJS/Jquery</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Devops Docker/Nginx</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Html / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Bootstrap</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Sql Mysql/Sql Alchemy</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								 var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								var display = 0;
+								 $(document).on('scroll', function() {
+									if($(this).scrollTop()>=$('#my-skill').position().top){
+										if (display == 0){
+											display = 1;
+											for (var i = 1; i <= 7; i++) {
+												var child = document.getElementById('circles-' + i)
+												if (i == 1){
+													percentage = 90;
+												}else if (i == 2){
+													percentage = 75;
+												}else if (i == 3){
+													percentage = 85;
+												}else if (i == 4){
+													percentage = 70;
+												}else if (i == 5){
+													percentage = 80;
+												}else{
+													percentage = 90;
+												}
+													
+												Circles.create({
+													id:         child.id,
+													percentage: percentage,
+													radius:     80,
+													width:      10,
+													number:   	percentage / 1,
+													text:       '%',
+													duration:    1500,
+													colors:     colors[i - 1]
+												});
+											setTimeout(function(){}, 1000);
+											}
+										}
+									}
+								})
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2010 - 2014</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHELORS</h3>
+						<h4>Netaji Subhash Engineering College</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>
+							<ul style="text-align:left">
+								<li>Stream: Computer Science</li>
+								<li>DGPA: 8.48</li>
+								<li>University: WBUT</li>
+							</ul>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2009 - 2010</p><span>Intermidiate</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>INTERMIDIATE</h3>
+						<h4>DAV Public School</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>
+							<ul style="text-align:left">
+								<li>Stream: Pure Science</li>
+								<li>Percentage: 84%</li>
+								<li>Board: CBSE</li>
+							</ul>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2007 - 2008</p><span>Matriculation</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MATRICULATION</h3>
+						<h4>DAV Public School</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>
+							<ul style="text-align:left">
+								<li>Stream: Science</li>
+								<li>Percentage: 89%</li>
+								<li>Board: CBSE</li>
+							</ul>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-6 w-grid">
+				<div class="work-grid">
+					<h3>2014(August) - 2015(July)</h3>
+					<div class="work-grid-info">
+						<h4>TCS</h4>
+						<h5>Asst System Engineer</h5>
+						<p> Worked as a SAP BASIS/SECURITY Consultant, worked on L1 and L2 support Tickets
+							for JaguarLandRover and also worked on documentation.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 w-grid">
+				<div class="work-grid">
+					<h3>2015(July) - Now</h3>
+					<div class="work-grid-info">
+						<h4>Screen Magic</h4>
+						<h5>Full Stack Dev</h5>
+						<p> Working as a full-stack developer, mainly on backend stack, I have worked in api's development,
+							And I have keen interest in Deveops, therefore worked in Docker and Kubernetes. Have handson on Frontend 
+							framework like jQuery, Angularjs and Polymer. Also very much interested in Analytics and ML and AI.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2013 - Now</h3>
+					<div class="work-grid-info">
+						<h4>Google</h4>
+						<h5>Visual Designer</h5>
+						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
+						This gun is advertised as the most popular gun in American crime. 
+						Do you believe that shit? It actually says that in the little book 
+						that comes with it: the most popular gun in</p>
+					</div>
+				</div>
+			</div>-->
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<!--<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>Web Design</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>Graphic Design</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagec"></div>
+				<h3>Content Writer</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Development</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>-->
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PROJECTS</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>The following projects are live on github, majorly just hobby projects.</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<!--<div class="col-md-4 gallery-grid">
+					<a><img src="images/jira_automation.png" alt="/">
+						<div class="button"><a href="http://rahul91.github.io/Jira_Automation/" target="_blank">VIEW</a></div>
+						<!--<div class="textbox">
+							<h4>Project Name</h4>
+							<p>Jira Automation</p>-->
+							<!--<div class="button"><a href="http://rahul91.github.io/GitGui/">VIEW</a></div>-->
+						<!--</div>-->
+					<!--</a>
+				</div>-->
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>Jira Automation</h3>
+						<div class="work-grid-info" style="text-align:left;">
+							<a href="http://rahul91.github.io/Jira-Automation/" target="_blank"><p>
+								Logging work to your assigned unresolved tickets, given that you are using atlassian Jira can be automated through cli. 
+								The shell scripts automatically log work, in case of commit, eihter you are working on git or svn or Mercurial
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>Community News</h3>
+						<div class="work-grid-info" style="text-align:left;">
+							<a href="http://rahul91.github.io/CommunityNewsPortal/" target="_blank"><p>
+								A ycombinator News website Built using django, the project is deployed on heroku.
+							</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>GitGui</h3>
+						<div class="work-grid-info" style="text-align:left;">
+							<a href="http://rahul91.github.io/GitGui/" target="_blank"><p>
+							A python GUI based application/package that lets you push a file to your Github
+							easily, without any difficulties. If you are
+							too lazy to add and commit through command prompt, then this app/package is for you .	
+							</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>GreenGIT</h3>
+						<div class="work-grid-info" style="text-align:left;">
+							<a href="http://rahul91.github.io/GreenGIT/" target="_blank"><p>
+								Harvest your Github using GreenGIT. A
+								python based web application</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>Chat IM App</h3>
+						<div class="work-grid-info" style="text-align:left;">
+							<a href="http://rahul91/healthify" target="_blank"><p>
+								Build using Flask and Angularjs, this app is production ready for chatting, Add, delete, join feature of a chat room 
+								are available here.
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w-grid" style="padding-bottom: 15px; opacity: .8;">
+					<div class="work-grid-project">
+						<h3>IPL Score Braodcaster
+</h3>
+						<div class="work-grid-info">
+							<a href="https://github.com/Rahul91/Django_IPL" target="_blank"><p>
+								If you are totally into cricket and your office firewall doesnot permit you to even see scores or you are too busy to see scores online, here is something useful for you guys. Just log in to this awesome useful website, sit back and do your work, you will get notification of live scores.
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<!--<div class="col-md-4 gallery-grid">
+					<a><img src="images/gitgui.png" alt="/">
+					<div class="button"><a href="http://rahul91.github.io/GitGui/">VIEW</a></div>
+						<!--<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p2.jpg">VIEW</a></div>
+						</div>-->
+				<!--</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p3.jpg">VIEW</a></div>
+						</div>
+				</div></a>-->
+				<!--<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>-->
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+<!--process-->
+<!--<div class="process text-center">
+	<div class="container">
+		<h3>PROCESS</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>-->
+<!--//process-->
+<div class="process-back"></div>
+<!--testimonials-->
+<!--<div class="testimonials" id="testimonial">
+	<div class="container">
+		<h3>TESTIMONIAL</h3>
+		<div class="strip text-center"><img src="images/test.png" alt=" "/></div>
+			<!-- responsiveslides -->
+					<!--<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+						</script>-->
+			<!-- responsiveslides -->
+			<!--<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/7.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/eee.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+					</ul>
+			</div>
+			
+	</div>
+</div>-->
+<!--testimonials-->
+<!--clients-->
+<!--<div class="clients text-center">
+	<div class="container">
+		<h4>Clients</h4>
+		<div class="strip-line"></div>
+		<div class="client-grids">
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/10.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/11.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/12.png" alt=""/>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>-->
+<!--clients-->
+<!--<div class="client-back"></div>-->
+<!--blog-->
+<!--<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>BLOG</h3>
+			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+		</div>
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>	
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>-->
+<!--//blog-->
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>B-105, GoldFinger, </li>
+					<li>Wakad, Pune</li>
+					<li>India</li>
+					<li>+91-9168889926</li>
+					<li><a href="mailto:priyrahulmishra@gmail.com">Priyrahulmishra@gmail.com</a></li>
+					<li><a href="http://www.rahul91.github.io">Website</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="RahulMishra_Resume.pdf" download="Rahul_resume">DOWNLOAD MY RESUME</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<!--<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>-->
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
