@@ -124,7 +124,7 @@ a.boxclose{
 	opacity: 0.7;
 }
 .banner-info{
-width:90%;
+width:97%;
 margin: 130px auto 0 auto;
 }
 .banner-right h1{
@@ -154,7 +154,7 @@ border:2px solid #000;
 .banner-left{
 float:left;
 	margin-top: 12px;
-	width: 50%;
+	width: 53%;
 }
 .banner-left h2{
   font-size: 30px;
@@ -345,7 +345,7 @@ line-height:1.8em;
 .edu-grid-master h4{
 font-family: 'Lato', sans-serif;
 margin:10px 0 0 0;
-font-size:18px;
+font-size:17px;
 color:#ffffff;
 font-weight: 600;
 }
@@ -423,6 +423,8 @@ font-weight: 600;
 background:#ffffff;
 padding: 20px 18px;
 min-height: 295px;
+max-height: 295px;
+padding-top: 10px;
 }
 .work-grid-info h4{
   font-family: 'Lato', sans-serif;
@@ -525,7 +527,7 @@ min-height: 285px;
 #portfolio p {
   font-family: 'Lato', sans-serif;
   line-height: 1.8em;
-  margin: 25px 0 0 0;
+  /*! margin: 25px 0 0 0; */
   font-size: 18px;
   color: #ffffff;
   font-weight: 300;
